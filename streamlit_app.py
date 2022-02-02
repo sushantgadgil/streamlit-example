@@ -34,5 +34,5 @@ st.write(datelist)
 display = st.checkbox("Display Data")
 
 if display:
-    st.line_chart(sampl,datelist)
+    st.line_chart(sampl)
 
