@@ -23,6 +23,8 @@ st.header("View a Cities' Temperature")
 
 st.subheader("Enter a Zip Code")
 
+zip = st.text_input("Enter Zip")
+
 data = []
 
 sampl = np.random.uniform(low=0.5, high=13.3, size=(50))
