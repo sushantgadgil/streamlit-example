@@ -43,5 +43,10 @@ if display:
 
 st.subheader("Images From Your Location")
 
-st.image("https://picsum.photos/200/300")
-st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+disp2 = st.checkbox("Show Media")
+
+if disp2:
+    st.image("https://picsum.photos/200/300")
+    st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+    
+
