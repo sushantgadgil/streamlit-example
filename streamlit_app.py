@@ -8,7 +8,7 @@ from datetime import datetime
 import time
 
 st.set_page_config(
-    page_title="SYSEN 5100 HW 1",
+    page_title="SYSEN 5160 HW 1",
     page_icon="random"
 )
 
