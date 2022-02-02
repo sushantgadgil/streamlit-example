@@ -25,7 +25,12 @@ sampl = np.random.uniform(low=0.5, high=20, size=(50))
 datelist = pd.date_range(datetime.today(), periods=50).tolist()
 disp = st.checkbox("Show Data")
 
+my_bar = st.progress(0)
+
 if disp:
+    for percent_complete in range(100):
+         time.sleep(0.01)
+         my_bar.progress(percent_complete + 1)
     st.dataframe(sampl)
     st.table(datelist)
 
@@ -36,8 +41,6 @@ if display:
     st.bar_chart(sampl)
 
 st.header("Images From Your Location")
-
-disp2 = st.checkbox("Show Media")
 
 with st.expander("See Media"):
     st.image("https://picsum.photos/500/300")
