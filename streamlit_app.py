@@ -28,12 +28,10 @@ data = []
 sampl = np.random.uniform(low=0.5, high=13.3, size=(50))
 datelist = pd.date_range(datetime.today(), periods=50).tolist()
 
-data = data.append(sampl,datelist)
-
 display = st.checkbox("Display Data")
 
 if display:
-    st.line_chart(data)
+    st.line_chart(sampl,datelist)
 end
 
 
