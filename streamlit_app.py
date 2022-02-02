@@ -9,7 +9,7 @@ import time
 
 st.set_page_config(
     title="SYSEN 5100 HW 1"
-    favicon=":random:"
+    page_icon=":random:"
 )
 
 st.title("SYSEN 5160 HW 1: Streamlit Examples")
