@@ -37,7 +37,7 @@ st.header("Images From Your Location")
 
 disp2 = st.checkbox("Show Media")
 
-with st.expander("See Media")
+with st.expander("See Media"):
     st.image("https://picsum.photos/200/300")
     st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
     
