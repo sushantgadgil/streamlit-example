@@ -32,6 +32,4 @@ display = st.checkbox("Display Data")
 
 if display:
     st.line_chart(sampl,datelist)
-end
-
 
