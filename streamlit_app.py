@@ -32,7 +32,7 @@ data = data.append(sampl,datelist)
 
 display = st.checkbox("Display Data")
 
-if display
+if display:
     st.line_chart(data)
 end
 
