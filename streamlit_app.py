@@ -5,6 +5,7 @@ import pandas as pd
 import streamlit as st
 import numpy as np
 from datetime import datetime
+import time
 
 st.title("SYSEN 5160 HW 1: Streamlit Examples")
 
