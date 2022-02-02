@@ -8,7 +8,9 @@ from datetime import datetime
 
 st.title("SYSEN 5160 HW 1: Streamlit Examples")
 
-st.sidebar.button("City Temp","Media")
+st.sidebar.button("City Temp")
+st.sidebar.button("Media")
+
 
 
 st.header("View a Cities' Temperature")
