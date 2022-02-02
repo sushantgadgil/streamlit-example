@@ -26,9 +26,9 @@ sampl = np.random.uniform(low=0.5, high=20, size=(50))
 datelist = pd.date_range(datetime.today(), periods=50).tolist()
 disp = st.checkbox("Show Data")
 
-my_bar = st.progress(0)
 
 if disp:
+    my_bar = st.progress(0)
     for percent_complete in range(100):
          time.sleep(0.01)
          my_bar.progress(percent_complete + 1)
