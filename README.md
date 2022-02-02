@@ -1,6 +1,7 @@
-# Welcome to Streamlit!
+# SYSEN 5100 HW 1 For Sushant Gadgil!
 
-Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
+Name: Sushant Gadgil
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
+NetID: spg67
+
+Streamlit Example Available [Here](https://share.streamlit.io/sushantgadgil/streamlit-example)
