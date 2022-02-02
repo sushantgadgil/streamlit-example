@@ -49,7 +49,7 @@ if display:
 st.header("Images From Your Location")
 
 with st.expander("See Media"):
-    st.image("https://picsum.photos/500/300")
     st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-    
+    st.warning("Never Gonna Give You Up")
+    st.image("https://picsum.photos/500/300")    
 
