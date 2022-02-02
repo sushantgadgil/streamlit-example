@@ -29,9 +29,11 @@ data = []
 
 sampl = np.random.uniform(low=0.5, high=13.3, size=(50))
 datelist = pd.date_range(datetime.today(), periods=50).tolist()
+disp = st.checkbox("Show Data")
 
-st.dataframe(sampl)
-st.table(datelist)
+if disp:
+    st.dataframe(sampl)
+    st.table(datelist)
 
 display = st.checkbox("Display Data")
 
