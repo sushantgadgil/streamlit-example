@@ -27,7 +27,7 @@ zip = st.text_input("Enter Zip")
 
 data = []
 
-sampl = np.random.uniform(low=0.5, high=13.3, size=(50))
+sampl = np.random.uniform(low=0.5, high=20, size=(50))
 datelist = pd.date_range(datetime.today(), periods=50).tolist()
 disp = st.checkbox("Show Data")
 
@@ -35,9 +35,12 @@ if disp:
     st.dataframe(sampl)
     st.table(datelist)
 
-display = st.checkbox("Display Data")
+display = st.checkbox("Display Temperature Data")
 
 if display:
     st.line_chart(sampl)
     st.bar_chart(sampl)
 
+st.subheader("Images From Your Location")
+
+st.image(https://picsum.photos/200/300)
