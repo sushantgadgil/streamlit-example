@@ -39,4 +39,5 @@ display = st.checkbox("Display Data")
 
 if display:
     st.line_chart(sampl)
+    st.bar_chart(sampl)
 
