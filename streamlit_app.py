@@ -43,4 +43,4 @@ if display:
 
 st.subheader("Images From Your Location")
 
-st.image(https://picsum.photos/200/300)
+st.image("https://picsum.photos/200/300")
